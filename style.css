@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #400c5f;
+}
+.container{
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    margin-top: 25px;
+}
+.container > h2{
+    font-size: 2em;
+    padding: 15px;
+    text-align: center;
+}
+form{
+    width: 100%;
+}
+form input{
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border-radius: 10px;
+    padding: 0px 10px ;
+    
+}
+form button{
+    height: 35px;
+    padding: 0px 25px;
+    border: none;
+    border-radius: 15px;
+    background-color: #ff5845;
+    color: white;
+}
+.lists {
+    margin: 20px 0px;
+}
+.lists > div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.left h6{
+    font-size: 1.5em;
+}
+
+.right{
+    font-size: 1.5em;
+}
+.right i{
+    margin: 0px 5px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.right i.fa-trash{
+    background-color: #ff5845;
+}
+.right i.fa-edit{
+    background-color: green;
+}
